@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+> ## Project Description
+>
+> This is a Dota2 Steam game User account search app. This app will allow user to input they Steam account ID t o search for their Steam profile, solo competitive rank, leaderboard rank, rank tier, mmr estimate, competitive rank.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Link to the API you plan to use
 
-## Available Scripts
+https://api.opendota.com/api/players/{account_id}
+7806afab-276d-4f00-909d-7cd25936\*\*\*\*
 
-In the project directory, you can run:
+## Example data response you plan to use
 
-### `npm start`
+<img width="1295" alt="Screen Shot 2022-03-02 at 9 35 04 AM" src="https://media.git.generalassemb.ly/user/41195/files/252ad000-9a1b-11ec-8610-3e1330ad3c15">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Visual of your component hierarchy
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="566" alt="Screen Shot 2022-03-02 at 1 41 26 PM" src="https://media.git.generalassemb.ly/user/41195/files/d38c4080-9a2e-11ec-8415-51b706702e52">
 
-### `npm test`
+## Wire Frames
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="936" alt="Screen Shot 2022-03-02 at 1 44 42 PM" src="https://media.git.generalassemb.ly/user/41195/files/eef74b80-9a2e-11ec-9f7e-5ef60a4190e7">
 
-### `npm run build`
+## User Stories
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- User can look up his or her stat data on this site by inputing Steam account ID
+- User can compare 3 different steam account data stat from the game
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### MVP Goals
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Link API data
+- User able to input 3 Steam account and check stats
+- Show instruction on how to access steam ID
 
-### `npm run eject`
+### Stretch Goals
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- TBD
