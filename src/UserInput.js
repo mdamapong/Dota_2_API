@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 export default function UserInput(props) {
-	const [input, setInput] = useState();
+	const [input, setInput] = useState('');
 
 	const handleSubmit = (e) => {
 		console.log('submit');
@@ -15,6 +15,7 @@ export default function UserInput(props) {
 		setInput(e.target.value);
 	};
 	const url = 'https://api.opendota.com/api/players/' + input;
+	const urlHero = 'https://api.opendota.com/api/players/' + input + '/heroes';
 
 	const [currentUser, setCurrentUser] = useState(null);
 	const [info, setInfo] = useState();
@@ -24,7 +25,6 @@ export default function UserInput(props) {
 				return res.json();
 			})
 			.then((data) => {
-				console.log(data.profile.name);
 				setInfo(data);
 				console.log(data);
 				setCurrentUser(data);
@@ -40,7 +40,13 @@ export default function UserInput(props) {
 				<button type='submit'>Search</button>
 			</form>
 			<section>
-				<h2>Steam name: {info.profile.name}</h2>
+				<div>
+					<h2>Steam name: {info?.profile.name}</h2>
+					<img src={info?.profile.avatarfull}></img>
+				</div>
+				<div>Leaderboard: {info?.leaderboard_rank}</div>
+				<div>Rank tier: {info?.rank_tier} </div>
+				<div>mmr estimate: {info?.mmr_estimate.estimate}</div>
 			</section>
 		</div>
 	);
