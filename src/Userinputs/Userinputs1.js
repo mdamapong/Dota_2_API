@@ -15,7 +15,6 @@ export default function UserInput(props) {
 		setInput(e.target.value);
 	};
 	const url = 'https://api.opendota.com/api/players/' + input;
-	const urlHero = 'https://api.opendota.com/api/players/' + input + '/heroes';
 
 	const [currentUser, setCurrentUser] = useState(null);
 	const [info, setInfo] = useState();
