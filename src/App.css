@@ -8,7 +8,8 @@
 	margin: 0;
 	font-family: 'Source Serif Pro', serif;
 	color: #cfdbd5;
-	background-image: url('http://bprogaming.com/wp-content/uploads/2015/05/dota-2-official-817x320.jpg');
+	/* background-image: url('http://bprogaming.com/wp-content/uploads/2015/05/dota-2-official-817x320.jpg'); */
+	background: black;
 
 	background-position: center center;
 }
