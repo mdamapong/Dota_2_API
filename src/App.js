@@ -23,7 +23,7 @@ function App() {
 			</nav>
 			<div class='content'>
 				<header>
-					<Link to='/'>
+					<Link className='header' to='/'>
 						<h1>YOUR DOTA2 STATS</h1>
 					</Link>
 				</header>
@@ -44,6 +44,7 @@ function App() {
 						{/* <div class='react-player'>
 							<ReactPlayer url='https://www.twitch.tv/wagamamatv' controls />
 						</div> */}
+						<img src={'/Asset/dota2.jpg'} alt='' />
 					</article>
 				</main>
 			</div>

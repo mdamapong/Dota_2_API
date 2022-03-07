@@ -19,6 +19,15 @@ header {
 	z-index: 2;
 }
 
+.header {
+	text-decoration: none;
+	color: honeydew;
+}
+
+.header:hover {
+	text-decoration: underline;
+}
+
 .navbar {
 	background: #242423;
 	flex: 1;
