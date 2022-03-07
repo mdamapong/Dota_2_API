@@ -11,14 +11,18 @@ function App() {
 	return (
 		<div class='body'>
 			<nav class='navbar'>
-				<Link to='/input'>
+				<Link className='rank-link' to='/input'>
 					<h4 class='leader'>RANK</h4>
 				</Link>
 				<h4 class='wl'>
-					<Link to='/WL'>WIN/LOSE</Link>
+					<Link className='wl-link' to='/WL'>
+						WIN/LOSE
+					</Link>
 				</h4>
 				<h4 class='recent'>
-					<Link to='/Recent'>RECENT MATCH</Link>
+					<Link className='recent-link' to='/Recent'>
+						RECENT MATCH
+					</Link>
 				</h4>
 			</nav>
 			<div class='content'>

@@ -21,7 +21,10 @@ header {
 	z-index: 2;
 }
 
-.header {
+.header,
+.rank-link,
+.wl-link,
+.recent-link {
 	text-decoration: none;
 	color: honeydew;
 }
@@ -39,9 +42,9 @@ header {
 	background-position: center center;
 }
 
-.leader {
+/* .leader {
 	text-decoration: none;
-} /* not working */
+} not working */
 
 .content {
 	display: flex;
@@ -66,4 +69,4 @@ article {
 .react-player {
 	display: flex;
 	justify-content: center;
-} /* not working */
+}
