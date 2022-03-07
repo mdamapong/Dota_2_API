@@ -37,8 +37,8 @@ export default function WinloseData(props) {
 				<input value={input} onChange={handleSteamIdChange} />
 				<button type='submit'>Search</button>
 			</form>
-			<h4 class='win'>🗡 Win: {info?.win} </h4>
-			<h4 class='lose'>☠️ Lose: {info?.lose}</h4>
+			<h4 className='win'>🗡 Win: {info?.win} </h4>
+			<h4 className='lose'>☠️ Lose: {info?.lose}</h4>
 		</>
 	);
 }

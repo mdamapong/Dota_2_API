@@ -9,23 +9,23 @@ import Video from './video/Dotavid.mp4';
 
 function App() {
 	return (
-		<div class='body'>
-			<nav class='navbar'>
+		<div className='body'>
+			<nav className='navbar'>
 				<Link className='rank-link' to='/input'>
-					<h4 class='leader'>RANK</h4>
+					<h4 className='leader'>RANK</h4>
 				</Link>
-				<h4 class='wl'>
+				<h4 className='wl'>
 					<Link className='wl-link' to='/WL'>
 						WIN/LOSE
 					</Link>
 				</h4>
-				<h4 class='recent'>
+				<h4 className='recent'>
 					<Link className='recent-link' to='/Recent'>
 						RECENT MATCH
 					</Link>
 				</h4>
 			</nav>
-			<div class='content'>
+			<div className='content'>
 				<header>
 					<Link className='header' to='/'>
 						<h1>YOUR DOTA2 STATS</h1>
@@ -42,10 +42,10 @@ function App() {
 							<Route path='/WL' element={<WinloseData />}></Route>
 							<Route path='Recent' element={<Recent />}></Route>
 						</Routes>
-						{/* <video class='vid' autoPlay loop muted>
+						{/* <video className='vid' autoPlay loop muted>
 							<source src={Video} type='video/mp4' />
 						</video> */}
-						<div class='react-player'>
+						<div className='react-player'>
 							<ReactPlayer
 								playing={true}
 								loop={true}
