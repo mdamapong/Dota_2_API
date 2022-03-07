@@ -38,12 +38,18 @@ function App() {
 							<Route path='/WL' element={<WinloseData />}></Route>
 							<Route path='Recent' element={<Recent />}></Route>
 						</Routes>
-						<video class='vid' autoPlay loop muted>
+						{/* <video class='vid' autoPlay loop muted>
 							<source src={Video} type='video/mp4' />
-						</video>
-						{/* <div class='react-player'>
-							<ReactPlayer url='https://www.twitch.tv/wagamamatv' controls />
-						</div> */}
+						</video> */}
+						<div class='react-player'>
+							<ReactPlayer
+								playing={true}
+								loop={true}
+								controls={false}
+								url='https://www.youtube.com/watch?v=yoS1wMWUkoY'
+								controls
+							/>
+						</div>
 						<img src={'/Asset/dota2.jpg'} alt='' />
 					</article>
 				</main>
