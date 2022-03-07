@@ -8,7 +8,9 @@
 	margin: 0;
 	font-family: 'Source Serif Pro', serif;
 	color: #cfdbd5;
-	background: #001d3d;
+	background-image: url('http://bprogaming.com/wp-content/uploads/2015/05/dota-2-official-817x320.jpg');
+
+	background-position: center center;
 }
 
 header {
@@ -32,6 +34,9 @@ header {
 	background: #242423;
 	flex: 1;
 	text-align: center;
+	background-image: url('https://w0.peakpx.com/wallpaper/560/809/HD-wallpaper-dota-2-logo-dota-2.jpg');
+	background-size: cover;
+	background-position: center center;
 }
 
 .leader {
@@ -53,11 +58,12 @@ footer {
 
 article {
 	text-align: center;
-	background: #001d3d;
+	background: black;
 	background-repeat: no-repeat;
 	background-size: auto;
 }
 
 .react-player {
+	display: flex;
 	justify-content: center;
 } /* not working */

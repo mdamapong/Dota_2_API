@@ -49,8 +49,14 @@ function App() {
 								url='https://www.youtube.com/watch?v=yoS1wMWUkoY'
 								controls
 							/>
+							<ReactPlayer
+								playing={true}
+								loop={true}
+								controls={false}
+								url='https://www.twitch.tv/insan1a'
+								controls
+							/>
 						</div>
-						<img src={'/Asset/dota2.jpg'} alt='' />
 					</article>
 				</main>
 			</div>
