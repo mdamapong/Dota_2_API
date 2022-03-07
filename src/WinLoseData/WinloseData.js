@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import './WinLoseData.css';
 
 export default function WinloseData(props) {
 	const [input, setInput] = useState('');
@@ -36,8 +37,8 @@ export default function WinloseData(props) {
 				<input value={input} onChange={handleSteamIdChange} />
 				<button type='submit'>Search</button>
 			</form>
-			<h4>Win: {info?.win} </h4>
-			<h4>Lose: {info?.lose}</h4>
+			<h4 class='win'>🗡 Win: {info?.win} </h4>
+			<h4 class='lose'>☠️ Lose: {info?.lose}</h4>
 		</>
 	);
 }

@@ -6,18 +6,28 @@
 	min-height: 100vh;
 	flex-direction: row;
 	margin: 0;
+	font-family: trajan-pro-3, serif;
+	color: #cfdbd5;
+	background: #001d3d;
 }
 
 header {
-	background: #e5e3c9;
+	background: #333533;
 	height: 10vh;
 	text-align: center;
+	box-shadow: 0 4px 6px #333533;
+	z-index: 2;
 }
 
 .navbar {
-	background: #b4cfb0;
+	background: #242423;
 	flex: 1;
+	text-align: center;
 }
+
+.leader {
+	text-decoration: none;
+} /* not working */
 
 .content {
 	display: flex;
@@ -27,11 +37,18 @@ header {
 
 header,
 article,
-.navbar {
+.navbar,
+footer {
 	padding: 1em;
 }
 
 article {
 	text-align: center;
-	background: #94b49f;
+	background: #001d3d;
+	background-repeat: no-repeat;
+	background-size: auto;
 }
+
+.react-player {
+	justify-content: center;
+} /* not working */

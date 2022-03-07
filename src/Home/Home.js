@@ -12,6 +12,7 @@ const Home = () => {
 				You will need steamID32 which can be found by using Steam ID finder
 				following this link "https://steamid.xyz/"
 			</p>
+			<p>id example 86745912</p>
 		</div>
 	);
 };
