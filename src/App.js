@@ -5,12 +5,14 @@ import Home from './Home/Home';
 import WinloseData from './WinLoseData/WinloseData';
 import ReactPlayer from 'react-player';
 import Recent from './Userinputs/Recent';
-import Video from './video/Dotavid.mp4';
 
 function App() {
 	return (
 		<div className='body'>
 			<nav className='navbar'>
+				<Link className='home' to='/1'>
+					HOME
+				</Link>
 				<Link className='rank-link' to='/input'>
 					<h4 className='leader'>RANK</h4>
 				</Link>
@@ -36,6 +38,7 @@ function App() {
 					<article>
 						<Routes>
 							<Route path='/' element={<Home />} />
+							<Route path='/1' element={<Home />} />
 						</Routes>
 						<Routes>
 							<Route path='/input' element={<UserInput />}></Route>

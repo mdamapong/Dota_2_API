@@ -35,7 +35,8 @@ header {
 .header,
 .rank-link,
 .wl-link,
-.recent-link {
+.recent-link,
+.home {
 	text-decoration: none;
 	color: honeydew;
 }
