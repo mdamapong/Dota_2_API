@@ -1,4 +1,4 @@
-> ## Project Description
+> ## Project Descriptio
 >
 > This is a Dota2 Steam game User account search app. This app will allow user to input they Steam account ID t o search for their Steam profile, solo competitive rank, leaderboard rank, rank tier, mmr estimate, competitive rank.
 > Project motivation: I love the game and I wanted to see what I can do to pull out my own game data. Unfortunately my data wan't accessible, however I can access high rank players.
